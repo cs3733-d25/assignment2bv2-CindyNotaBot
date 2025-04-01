@@ -58,11 +58,6 @@ nav a:hover {
 #content {
   padding: 0 200px 200px;
 }
-.roundbullets{
-  list-style-type: circle;
-  display: inline-block;
-  margin-top: 5px;
-}
 .collapse {
   border-collapse: collapse;
   border: 1px solid #9c005e;
@@ -117,15 +112,6 @@ select option[value="valuetohide"] {
 h1, h2 {
   font-family: 'Courier New', monospace;
   font-weight: bold;
-}
-h2.favArtistStyle {
-  margin-bottom: 0px
-}
-li.color1 {
-  color: #c516da;
-}
-li.color2 {
-  color: #f385ff;
 }
 caption.tableStyle{
   font-size: 20px;
