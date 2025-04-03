@@ -1,0 +1,77 @@
+
+main{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h1, h2 {
+  font-family: Onyx, Helvatica, sans-serif;
+  font-size: 55px;
+  color:midnightblue;
+}
+body {
+  color:#003A68;
+  background-color: lightblue ;
+  font-family: Garamond, sans-serif;
+}
+
+
+.navbar ul{
+  list-style-type: none;
+  background-color: #003A68;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding: .5em .5em;
+  display: block;
+  text-align: justify;
+}
+.navbar li{
+  float:left;
+}
+a:link{
+  color: #8DDFF5;
+}
+.navbar a:hover {
+  font-size: 1.2em;
+  color: aqua;
+}
+a:active{
+  font-size: 1.2em;
+  background-color: cornflowerblue;
+}
+#SuiIshida{
+  color: deeppink;
+}
+
+
+table.collapse {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10px 0;
+  border: 2px solid #003A68;
+}
+
+table.collapse th, table.collapse td {
+  border: 1px solid #003A68;
+  padding: 10px;
+  text-align: left;
+}
+
+table.collapse th {
+  background-color: #6495ED;
+  color: white;
+  font-weight: bold;
+}
+
+table.collapse tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+table.collapse tr:hover {
+  background-color: rgba(100, 149, 237, 0.2);
+}
